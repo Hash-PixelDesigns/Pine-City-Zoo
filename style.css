@@ -70,11 +70,11 @@ body{
     padding-top: 10px;
 }
 
-#main {
-    margin-top: 119px;
+#main-home {
+    margin-top: 120px;
+    display: block;
     background: url(images/map-blur.png);
-    background-repeat: repeat-x;
-    height: 200px;
+    background-repeat: repeat-y;
 }
 
 #content{
@@ -120,4 +120,67 @@ body{
     height:40px;
 }
 
+/*Animals Content*/
 
+#info-box-full {
+    background-color: rgba(255,255,255,0.8);
+    width:90%;
+    display: block;
+    margin: 0;
+    margin-top: 12px;
+    padding:10px;
+    margin-bottom: auto;
+}
+
+#info-box-full > img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+#info-box-full > h3 {
+    text-align: center;
+}
+
+/*Weather Page*/
+
+.info-box-weather-icon {
+    height: 30px;
+    width:30px;
+    margin: 10px;
+    float: left;
+}
+
+.info-box-weather-icon-heading {
+    font-size: 60px;
+    font-weight: 200;
+    padding:0;
+    margin:0;
+ }
+
+ /*Feedback Page*/
+
+ input {
+    width:100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292
+ }
+
+ textarea {
+    width: 100%;
+    height: 25px;
+    margin: 12px;
+    border:1px solid #929292
+ }
+
+ .button {
+    display: block;
+    background-color: forestgreen;
+    text-decoration: none;
+    text-align: center;
+    color:#fff;
+    font-size: 16px;
+    font-weight: 0;
+    padding: 8px 0;
+ }
